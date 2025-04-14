@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\AdoMcpServer.Console\AdoMcpServer.Console.csproj" />
+    <ProjectReference Include="..\..\src\AdoMcpServer\AdoMcpServer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

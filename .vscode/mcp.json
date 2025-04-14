@@ -1,0 +1,21 @@
+{
+    "servers": {
+        "my-test-mcp": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "/workspaces/ADO-MCP/src/AdoMcpServer/AdoMcpServer.csproj",
+                "--no-build"
+            ]
+        },
+        "test-mcp": {
+            "type": "stdio",
+            "command": "/workspaces/ADO-MCP/src/AdoMcpServer/bin/Debug/net9.0/AdoMcpServer",
+            "args": [
+     
+            ]
+        }
+    }
+}

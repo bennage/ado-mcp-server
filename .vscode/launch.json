@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/AdoMcpServer.Console/bin/Debug/net9.0/AdoMcpServer.Console.dll",
+            "program": "${workspaceFolder}/src/AdoMcpServer/bin/Debug/net9.0/AdoMcpServer.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/AdoMcpServer.Console",
+            "cwd": "${workspaceFolder}/src/AdoMcpServer",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
